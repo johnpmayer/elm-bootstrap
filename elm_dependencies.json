@@ -1,0 +1,10 @@
+{
+    "summary": "elm-html utilities for Twitter Bootstrap css",
+    "repository": "",
+    "dependencies": {},
+    "exposed-modules": [],
+    "version": "0.1.0",
+    "elm-version": "0.13",
+    "license": "BSD3",
+    "description": "elm-html utilities for Twitter Bootstrap css"
+}
