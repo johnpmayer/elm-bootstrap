@@ -1,6 +1,12 @@
 
-all:
-	elm --only-js --make Example.elm
+all: build/Example.js
 
-elm-runtime.js:
-	cp $(elm -g) .
+build/Example.js:
+	elm --bundle-runtime --only-js --make Example.elm
+
+.PHONY: clean
+
+clean:
+	rm -rf build
+	rm -rf cache
+
